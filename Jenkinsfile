@@ -1,13 +1,12 @@
-
 pipeline {
-    agent { label 'windows' }
+    agent { label 'Built-In' }
 
     triggers {
         pollSCM('H/2 * * * *')
     }
 
     environment {
-        JMETER_HOME = 'C:\NARESH\Perf Test Training\apache-jmeter-5.6.3'
+        JMETER_HOME = 'C:/NARESH/Perf Test Training/apache-jmeter-5.6.3'
         TEST_PLAN = 'Petstore.jmx'
         CSV_FILE = 'Petstore_InputData.CSV'
     }
