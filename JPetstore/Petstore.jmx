@@ -51,7 +51,7 @@
         </Arguments>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config: Username and Password">
-          <stringProp name="filename">C:\NARESH\Perf Test Training\JNK_API\Petstore_InputData.CSV</stringProp>
+          <stringProp name="filename">Petstore_InputData.CSV</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames"></stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
