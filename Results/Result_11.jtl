@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1791891328782,2732,SC02_TC01_Launch the Pet Store application-119,200,OK,Petstore 1-1,text,true,,990,453,1,1,https://petstore.octoperf.com/,2728,0,2434
+1791891333646,193,SC02_TC02_Enter the Store-130,200,OK,Petstore 1-1,text,true,,1937,523,1,1,https://petstore.octoperf.com/actions/Catalog.action,192,0,0
+1791891335863,215,SC02_TC03_Click on Sign In-149,200,OK,Petstore 1-1,text,true,,1846,654,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=E6DF72D7637B04F62982C0F32D01A333?signonForm=,215,0,0
+1791891338087,448,SC02_TC04_Enter the Credentials and Login-154,200,OK,Petstore 1-1,text,true,,2111,1737,1,1,https://petstore.octoperf.com/actions/Catalog.action,242,0,0
+1791891338087,242,SC02_TC04_Enter the Credentials and Login-154-0,302,Found,Petstore 1-1,,true,,234,995,1,1,https://petstore.octoperf.com/actions/Account.action,242,0,0
+1791891338331,204,SC02_TC04_Enter the Credentials and Login-154-1,200,OK,Petstore 1-1,text,true,,1877,742,1,1,https://petstore.octoperf.com/actions/Catalog.action,204,0,0
+1791891338540,211,SC02_TC04_Catalogue-155,200,OK,Petstore 1-1,text,true,,1874,654,1,1,https://petstore.octoperf.com/actions/Catalog.action,211,0,0
+1791891340767,225,SC02_TC05_Click on Product-157,200,OK,Petstore 1-1,text,true,,1562,628,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=Dogs,225,0,0
+1791891343005,164,SC02_TC06_Click on the Product ID-159,200,OK,Petstore 1-1,text,true,,1730,664,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-BD-01,164,0,0
+1791891345188,207,SC02_TC07_Click on the Item ID-160,200,OK,Petstore 1-1,text,true,,1699,653,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-6,207,0,0
+1791891347401,153,SC02_TC08_Add to Cart-163,200,OK,Petstore 1-1,text,true,,2034,654,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-6,153,0,0
+1791891355343,191,SC02_TC09_Enter the Quantity and Proceed To Checkout-165,200,OK,Petstore 1-1,text,true,,2243,643,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,190,0,0
+1791891357546,159,SC02_TC10_Enter the Details and Continue-167,200,OK,Petstore 1-1,text,true,,1902,1203,1,1,https://petstore.octoperf.com/actions/Order.action,159,0,0
+1791891359701,225,SC02_TC11_Confirm the Address-168,200,OK,Petstore 1-1,text,true,,2111,619,1,1,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,225,0,0
+1791891361938,304,SC02_TC12_Logout-170,200,OK,Petstore 1-1,text,true,,2125,1251,1,1,https://petstore.octoperf.com/actions/Catalog.action,151,0,0
+1791891361938,151,SC02_TC12_Logout-170-0,302,Found,Petstore 1-1,,true,,234,630,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,151,0,0
+1791891362090,152,SC02_TC12_Logout-170-1,200,OK,Petstore 1-1,text,true,,1891,621,1,1,https://petstore.octoperf.com/actions/Catalog.action,152,0,0
+1791891362248,151,SC02_TC12_Logout-171,200,OK,Petstore 1-1,text,true,,1816,621,1,1,https://petstore.octoperf.com/actions/Catalog.action,151,0,0
+1791891365439,8,Debug Sampler,200,OK,Petstore 1-1,text,true,,1415,0,1,1,null,0,0,0
